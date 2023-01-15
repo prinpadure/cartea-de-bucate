@@ -11,20 +11,21 @@
 <style>
 	.card {
 		background-color: white;
-		padding: 20px;
+		padding: 2rem;
 		border-radius: 10px;
 		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-		max-width: 550px;
+		max-width: 55rem;
 		text-align: center;
 	}
 
 	pre {
-		font-size: 30px;
+		font-size: 3rem;
 	}
 
 	name {
 		display: inline-block;
 		width: 100%;
 		font-size: 20px;
+		margin-top: 1rem;
 	}
 </style>
