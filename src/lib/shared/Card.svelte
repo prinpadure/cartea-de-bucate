@@ -4,7 +4,7 @@
 </script>
 
 <div class="card">
-	<pre>{content}</pre>
+	<p>{content}</p>
 	<name> - {author}</name>
 </div>
 
@@ -18,14 +18,15 @@
 		text-align: center;
 	}
 
-	pre {
-		font-size: 3rem;
+	p {
+		font-size: clamp(1rem, 7.5vw, 3rem);
+		white-space: pre-wrap;
 	}
 
 	name {
 		display: inline-block;
 		width: 100%;
-		font-size: 20px;
+		font-size: clamp(1rem, 5vw, 2rem);
 		margin-top: 1rem;
 	}
 </style>
